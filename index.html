@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/app.js" defer></script>
+
+    <!--js-->
+  </head>
+  <body>
+    <div class="main">
+      <div class="title-container">
+        <h1>
+          <span>
+            Welcome to the Interactive ABCs of CSS Technology learning Website
+          </span>
+        </h1>
+      </div>
+      <div class="subtitle-container">
+        <h2>
+          Click on the buttons below to reveal and learn the CSS technology
+          features for the corresponding buttons
+        </h2>
+      </div>
+
+      <div class="main-images">
+        <div class="img-containerA">
+          <img
+            class="imageA"
+            src="img/css-letter-a.png"
+            alt="letter a"
+            width="300px"
+            height="300px"
+          />
+          <input
+            type="button"
+            class="hide_aimg"
+            onclick="hideImgA()"
+            value="Hide Result"
+          />
+        </div>
+        <div class="img-containerB">
+          <img
+            class="imageB"
+            src="img/css-letter-b.png"
+            alt="letter b"
+            width="300px"
+            height="300px"
+          />
+          <input
+            type="button"
+            class="hide_bimg"
+            onclick="hideImgB()"
+            value="Hide Result"
+          />
+        </div>
+        <div class="img-containerC">
+          <img
+            class="imageC"
+            src="img/css-letter-c.png"
+            alt="letter c"
+            width="300px"
+            height="300px"
+          />
+          <input
+            type="button"
+            class="hide_cimg"
+            onclick="hideImgC()"
+            value="Hide Result"
+          />
+        </div>
+      </div>
+      <div class="show-buttons">
+        <input type="button" value="A" class="showBtnA" onClick="showImgA()" />
+        <input type="button" value="B" class="showBtnB" onClick="showImgB()" />
+        <input type="button" value="C" class="showBtnC" onClick="showImgC()" />
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
